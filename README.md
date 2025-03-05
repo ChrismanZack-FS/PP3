@@ -13,10 +13,16 @@ This project will use the [Spotify Web API](https://developer.spotify.com/docume
 
 We will be running on ports `3000`, and `3001` so please keep these ports open.
 
+env setup:
+SPOTIFY_CLIENT_ID=YOUR_ID
+SPOTIFY_CLIENT_SECRET=YOUR_SECRET
+SPOTIFY_REDIRECT_URI=http://localhost:3001/auth/callback
+PORT=3001
+JWT_SECRET=YOUR_JWT_SECRET
+
 # Getting Started
 
 First you will need to setup the `.env` file. There will be a .env.dist. in the root directory you can copy then change the name to .env
-
 
 Next you will need to install the node_modules.
 
